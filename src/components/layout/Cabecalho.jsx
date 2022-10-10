@@ -1,4 +1,4 @@
-import Menu from "../components/layout/Menu";
+import Menu from "./Menu";
 
 const Cabecalho = () => {
   return (

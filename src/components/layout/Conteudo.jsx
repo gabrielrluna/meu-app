@@ -7,6 +7,8 @@ const Conteudo = () => {
         <p>Lorem ipsum Dolor sit amet consectetur, adipisicing</p>
 
         <Artigo />
+        <Artigo />
+        <Artigo />
       </section>
     </main>
   );
