@@ -48,7 +48,11 @@ const Conteudo = () => {
             {artigo.texto}
             <p>===================================</p>
           </Artigo>
-        ))}
+          {artigos.map(({id,titulo,subtitulo,curso,texto}) => (
+          <Artigo key={id} titulo ={titulo} subtitulo={subtitulo} curso={curso} texto={texto}></Artigo>
+
+))}
+
       </section>
     </main>
   );
